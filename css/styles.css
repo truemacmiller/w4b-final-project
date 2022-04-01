@@ -1,0 +1,297 @@
+/* COPY */
+
+/* HEADER */
+
+
+ul {
+    color: #000000;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.menu-item {
+    color: #000000;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    background-color: #2e7742;
+    color: #FFFFFF;
+}
+
+#logo img {
+    width: 55px;
+    padding: 16px;
+    background-color: #FFFFFF;
+}
+
+/* NAV DROPDOWN */
+
+.dropdown-btn {
+    color: #000000;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6cc684;
+    min-width: 225px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 10px 15px;
+    display: block;
+    font-size: 18px;
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #6cc684;
+    color: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown-btn {
+    background-color: #2e7742;
+    color: #FFFFFF;
+}
+
+
+/* FOOTER */
+
+footer {
+    color: #000000;
+    font-size: 12px;
+    padding: 10px 15px;
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.footer_column {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+  
+.social {
+    display: inline-block;
+}
+  
+.legal {
+    display: block;
+}
+
+.legal a, .legal a:visited, .social a, .social a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+.legal a:hover, .social a:hover {
+    color: #2e7742;
+    text-decoration: none;
+}
+  
+#email_form {
+    text-align: left;
+    margin: 1px;
+}
+
+.social {
+    font-size: 20px;
+}
+
+/* EXTRA */
+
+/* GENERAL */
+
+.clearfix {
+    clear: both;
+}
+
+p, h1, h2, h6 {
+    font-family: Raleway;
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 1px;
+}
+
+/* CONTACT FORM */
+
+.contact {
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: Raleway;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2e7742;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6cc684;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input::placeholder, textarea::placeholder, .submit, select {
+    font-size: 16px;
+    font-family: Raleway;
+}
+
+/* ABOUT */
+
+.bio_column {
+    float: left;
+    width: 42%;
+    padding: 2%;
+}
+
+.photo_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    text-align: center;
+    padding: 6px;
+    font-family: Raleway;
+    color: #000000;
+    font-size: 16px;
+}
+
+.map {
+    width: 75%;
+    height: 300px;
+    border: 0;
+}
+
+.youtube {
+    width: 75%;
+    height: 300px;
+    border: 0;
+}
+
+/* INDEX */
+
+.hero_container
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway;
+    font-size: 32px;
+    color: #FFFFFF;
+    
+}
+
+.home_column {
+    float: left;
+    width: 42%;
+    padding: 2%;
+}
+
+#quotepicture {
+    width: 100%;
+    text-align: left;
+}
+
+/* QUOTE BOX */
+
+#quotebox {
+    font-family: 'Raleway Dots';
+    padding: 2%;
+    margin: 1px;
+    text-align: center;
+}
+
+#quoteauthor {
+    text-align: right;
+}
